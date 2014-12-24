@@ -13,7 +13,7 @@ Customizing your client's deployment of a WordPress website doesn't need to be a
 
 <!--more-->
 
-### Change &#8216;Posts' to &#8216;Articles'
+## Change &#8216;Posts' to &#8216;Articles'
 
 [sourcecode language=&#8221;php&#8221;]
 
@@ -28,7 +28,7 @@ return $translated;
 
 [/sourcecode]
 
-###  Removing &#8216;Links' from the Sidebar
+##  Removing &#8216;Links' from the Sidebar
 
 [sourcecode language=&#8221;php&#8221;]
 
@@ -39,7 +39,7 @@ remove\_menu\_page(&#8216;link-manager.php');
 
 [/sourcecode]
 
-### Adding your RSS Feed to their Dashboard
+## Adding your RSS Feed to their Dashboard
 
 Getting news out to your clients is extremely important &#8211; make sure they get yours!
 
@@ -76,7 +76,7 @@ echo "</div>
 
 [/sourcecode]
 
-### Adding Your Company's Name to their Admin Panel
+## Adding Your Company's Name to their Admin Panel
 
 [sourcecode language=&#8221;php&#8221;]
 

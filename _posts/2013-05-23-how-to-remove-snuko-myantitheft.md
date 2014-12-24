@@ -17,7 +17,7 @@ My trouble today started when I restarted my Macbook Air after manually performi
 
 <!--more-->
 
-### Finding the &#8220;source&#8221;
+## Finding the &#8220;source&#8221;
 
 The first was that there was a process running in Activity Monitor called USBMonitor. Well &#8211; since I have two usb ports, and not five, I knew something was up there. No information was available on the process, but that lead me to look into the Launch Daemons for my computer. A Launch Daemon runs when the computer runs, and even if the user isn't logged in. After looking at the list, I noticed two items that didn't match:
 
@@ -26,7 +26,7 @@ The first was that there was a process running in Activity Monitor called USBMon
 
 I removed them &#8211; and they came back. I then found that I needed to unload them from my Daemon Launch Control &#8211; and from there the removal was quite easy.
 
-### Here's how I did it:
+## Here's how I did it:
 
 First &#8211; open up Terminal on your computer and enter the following command:
 
@@ -62,6 +62,6 @@ After removing the plist files &#8211; we now need to kill the processes, so use
   killall bmon sasvc
 </p>
 
-### Phew&#8230;&#8230;..
+## Phew&#8230;&#8230;..
 
 Now that we've done all that manual work &#8211; we can rest easy. Snuko/MyAntiTheft won't run again on your computer!
