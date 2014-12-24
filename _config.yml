@@ -2,8 +2,8 @@
 title:                  "Bob Orchard"
 email:                  "me@boborchard.com"
 description:            "President of @tinypint and UI/UX Designer | Avid cyclist, geek, fan of beautiful hardware and I make made-to-order leather wallets @grwalletco"
-baseurl:                "http://boborchard.github.io"
-url:                    "http://boborchard.github.io"
+baseurl:                "http://boborchard.com"
+url:                    "http://boborchard.com"
 logourl:                "/assets/img/bloglogo.png"
 fa-logo:                "fa-bookmark-o"
 paginate:               5
