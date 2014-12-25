@@ -2,6 +2,9 @@
 title: Salvation Army Food Drive
 author: Bob Orchard
 layout: post
+banner_image: "/assets/uploads/2013/01/salvation_army_3.jpg"
+featured: true
+comments: false
 permalink: /articles/salvation-army-food-drive/
 dsq_thread_id:
   - 1033334435
