@@ -1,7 +1,7 @@
 # Site Settings
 title:                  "Bob Orchard"
-email:                  "me@boborchard.com"
-description:            "President of @tinypint and UI/UX Designer | Avid cyclist, geek, fan of beautiful hardware and I make made-to-order leather wallets @grwalletco"
+email:                  "mail@boborchard.com"
+description:            "I focus on #ux and #design to solve problems before they happen. English is my first language, but speaking User is my second. Product Design at @chargify."
 baseurl:                "http://boborchard.com"
 url:                    "http://boborchard.com"
 logourl:                "/assets/img/bloglogo.png"
@@ -12,8 +12,8 @@ paginate:               5
 # Author Settings
 author_name:            "Bob Orchard"
 author_url:             "http://boborchard.com"
-author_bio:             "President of @tinypint and UI/UX Designer | Avid cyclist, geek, fan of beautiful hardware and I make made-to-order leather wallets @grwalletco"
-author_email:           "me@boborchard.com"
+author_bio:             "I focus on #ux and #design to solve problems before they happen. English is my first language, but speaking User is my second. Product Design at @chargify."
+author_email:           "mail@boborchard.com"
 author_image:           "/assets/img/authorimage.jpg"
 
 
