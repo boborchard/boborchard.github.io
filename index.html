@@ -1,43 +1,49 @@
----
-layout: default
----
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="description" content="I focus on User Experience and Design to solve problems before they happen. English is my first language, but speaking User is my second." />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Bob Orchard | User Experience Designer</title>
+    <link rel="shortcut icon" href="images/ico/favicon.ico">
+    <link rel="apple-touch-icon" href="images/ico/apple-touch-icon.png"/>
+    <link rel="stylesheet" type="text/css" href="css/fonts/hk-grotesk/style.css">
+    <link rel="stylesheet" type="text/css" href="css/fonts/fontello/css/fontello.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-{% comment %}
-<div class="profile">
-	{% if site.logourl != "" %}<img src="{{ site.logourl }}" class="profileimage" alt="user">{% endif %}
-	<h4>{{ site.title }}</h4>
-	<p>{{ site.description }}</p>
-	<hr>
-</div>
-{% endcomment %}
-<section class="posts postindex wrapper">
+		  ga('create', 'UA-32999775-1', 'auto');
+		  ga('send', 'pageview');
 
-	{% for post in paginator.posts %}
-		<article class="post {% if post.featured == true %} featured {% endif %}">
-			<header>
-				<div class="feature"><span>Featured</span><i class="fa fa-bookmark fa-lg"></i></div>
-				<h2 class="category-name">
-					{% for category in post.categories %}
-					{{ category }} >
-					{% endfor %}
-				</h2>
-				<h1><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
-				{% comment %}
-				<span>
-					Posted on <i class="fa fa-clock-o"></i><time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%B %-d, %Y" }}</time>.
-				</span>
-				{% endcomment %}
-				<div class="excerpt">
-					{% if post.content contains '<!--more-->' %}
-						{{ post.content | split:'<!--more-->' | first }}
-					{% else %}
-						{{ post.content }}   
-					{% endif %}
-				</div>
-			</header>
-		</article>
-	{% endfor %}
-
-	{% include pagination.html %}
-
-</section>
+		</script>
+</head>
+<body>
+    <div class="content-wrap">
+        <div class="content">
+            <h1>Hello there!</h1>
+						<h2>
+							I'm Bob, a user experience designer that uses design to solve problems before they happen.
+						</h2>
+            <p>
+							I'm currently heading up Design at <a class="link-1" href="https://chargify.com" target="_blank">Chargify</a>.
+						</p>
+						<p>
+							You can find a selection of my work <a class="link-1" href="https://dribbble.com/boborchard" target="_blank">here</a> and code that I've committed <a class="link-1" href="https://github.com/boborchard" target="_blank">here</a>.
+						</p>
+            <p>
+              I enjoy <a class="link-1" href="https://twitter.com/boborchard" target="_blank">tweeting</a> about user experience &amp; taking
+              <a class="link-1" href="https://www.instagram.com/boborchard" target="_blank">photos</a>, and <a class="link-1" href="https://www.instagram.com/thewebnomads">traveling full-time</a> in my <span style="text-decoration: line-through">custom RV</span> mobile office.
+            </p>
+            <p>
+							For collaboration or questions; <br>
+          		<a class="link-2" href="mailto:mail@boborchard.com">mail@boborchard.com</a>
+						</p>
+        </div>
+    </div>
+	<script src="js/main.js"></script>
+</body>
+</html>
